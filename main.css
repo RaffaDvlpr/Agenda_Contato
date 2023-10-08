@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(233, 245, 255);
+    padding-top: 100px;
+}
+
+.container {
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+#agenda-img {
+    height: 48px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    background-color: white;
+    font-size: 22px;
+    border: none;
+    border-bottom: 2px solid rgb(40, 75, 146);
+}
+
+form button {
+    background-color: rgb(40, 75, 146);
+    color: white;
+    font-size: 22px;
+    padding: 6px 10px;
+    cursor: pointer;
+    border: none;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+form button:hover {
+    background-color: rgb(55, 103, 200);
+    color: white;
+    font-size: 22px;
+    padding: 6px 10px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: none;
+    border-bottom: none;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    font-size: 22px;
+    justify-content: space-between;
+    padding: 6px 0px;
+    border-bottom: 2px solid black;
+}
+
+table td {
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 6px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.505);
+    text-align: center;
+}
+
+#user-img {
+    height: 28px;
+}
